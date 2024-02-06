@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@media screen and (max-width:470px){
+    #header {
+        
+        padding: 10px 30px;
+        
+    }
+    #hero {
+        height: 60vh;
+        background-position:top;
+        padding: 0 20px;
+    }
+    button.normal {
+        font-size: 10px;
+        font-weight: 400;
+        padding: 13px 30px;
+        
+    }
+    #banner h2 {
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+    #banner {
+        height: 30vh;
+    }
+    
+    h2 {
+        font-size: 32px;
+    
+    }
+    h1 {
+        font-size: 38px;
+        
+    }
+    .section-p1 {
+        padding: 20px;
+    }
+    #feature .fe-box {
+        width: 155px;
+        margin: 0 0 15px 0;
+        
+        
+    }
+    #feature {
+        justify-content: space-around;
+    }
+    #product1 .pro {
+        width: 100%;
+    }
+    #banner3 .banner-box {
+        width: 100%;
+    }
+    #newsletter .form {
+        width: 100%;
+    }
+    #newsletter {
+    padding: 40px 20px;
+    }
+    footer .col {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    #prodetails {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    }
+    #prodetails .single-pro-image{
+        /* background-color: black; */
+        min-width: 100%;
+    }
+    #prodetails .single-pro-details {
+        min-width: 100%;
+        
+    }
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+    }
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-details {
+        width: 100%;
+    }
+    #about-head {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.about-detail {
+    width: auto;
+    height: 40vh;
+    padding: 300px 30px 30px 30px;
+    
+    
+}
+
+
+#about-head img {
+    width: 100%;
+    height: auto;
+}
+.about-detail h2 {
+    font-size: 20px;
+    line-height: 10px;
+}
+#about-app h1{
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+
+#about-app {
+    margin-top: 20%;
+    padding: 200px 0px 50px 0px;
+}
+#contact-details {
+   
+    flex-direction: column;
+    
+}
+#contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+
+}
+#contact-details .map {
+    width: 100%;
+    
+}
+#form-details {
+   
+    margin: 10PX;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+#form-details form {
+    min-width: 100%;
+    margin-bottom: 30px;
+}
+#cart-add {
+   flex-direction: column;
+}
+#coupon {
+    width: 100%;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+#subtotal {
+    width: 100%;
+   
+
+
+}}
+    @media (max-width:799px) {
+        .section-p1 {
+            padding: 40px 40px;
+    
+        }
+    
+        #navbar {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            position: fixed;
+            top: 0;
+            right: -300px;
+            height: 100%;
+            width: 300px;
+            background-color: #e3e6f3;
+            box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+            padding: 80px 0 0 10px;
+            transition: 0.3s;
+    
+        }
+    
+        #navbar.active {
+    
+            right: 0px;
+        }
+    
+        #navbar li {
+            margin-bottom: 30px;
+        }
+    
+        #mobile {
+            display: flex;
+            align-items: center;
+    
+        }
+    
+        #mobile i {
+            color: #1a1a1a;
+            font-size: 24px;
+            padding-left: 20px;
+        }
+    
+    
+        #close {
+            position: absolute;
+            display: initial;
+            top: 30px;
+            left: 30px;
+            color: #222;
+            font-size: 24px;
+            text-decoration: none;
+        }
+    
+        #lg-bag {
+            display: none;
+        }
+    
+        #hero {
+            height: 70vh;
+            background-position: top 30% right 30%;
+            padding: 0 80px;
+    
+        }
+    
+        #feature {
+            justify-content: center;
+        }
+    
+        #feature .fe-box {
+            margin: 15px 15px;
+        }
+    
+        #product1 .pro-container {
+            justify-content: center;
+        }
+        #product1 .pro {
+           
+            margin: 15px ;
+          
+        }
+        #banner {
+            
+            height: 20vh;
+        }
+        #banner h2 {
+            
+            font-size: 25px;
+            padding: 10px 10px;
+        }
+        #sm-banner .banner-box {
+             min-width: 100%;
+            height: 30vh;
+            align-items: center;
+         }
+         #banner3 {
+            
+            padding: 0 40px;
+        }
+        #banner3 .banner-box {
+           
+         width: 20%;
+          
+        }
+        #newsletter .form {
+            
+            width: 70%;
+        }
+        #about-app {
+           margin-top: 20%;
+        }
+        p {
+            font-size: 12px;
+            color: #465b52;
+            margin: 15px 0 20px 0;
+        }
+        h2 {
+            font-size: 35px;
+            line-height: 30px;
+           
+        }
+        #form-details {
+        
+            padding: 40px;
+           
+        }
+        #form-details form {
+            width: 50%;
+            
+        }
+        .about-detail {
+            width: 40%;
+            padding: 10px 10px 30px 10px;
+        }
+    
+    }
